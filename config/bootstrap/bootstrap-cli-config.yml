@@ -67,7 +67,7 @@ bootstrap:
             - cdf-group: cdf:all:read
               idp-source-id: 82aab306-a6a8-4abe-9108-76628e228e02 # for the AAD Group to be matched to cdf-group
               idp-source-name: readgroup # i.e. bootcamp-01-test-all-read
-      - cdf-project: cdf-bootcamp-07-Prod # i.e. bootcamp-01-test
+      - cdf-project: cdf-bootcamp-07-prod # i.e. bootcamp-01-test
         mappings:
             - cdf-group: cdf:root
               idp-source-id: dd0fa706-44ed-4975-98d2-9184d2b2171f
